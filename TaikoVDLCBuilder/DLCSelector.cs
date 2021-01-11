@@ -121,6 +121,11 @@ namespace TaikoVDLCBuilder
                     if (Global.database.Itens[idx].starUra > 0)
                     {
                         rndslt++;
+                        //Check if the song limit is reached and disable the ura song (to avoid limit + 1)
+                        if (rndslt > Global.tslot)
+                        {
+                            Global.database.Itens[idx].isChecked = false;
+                        }
                     }
                 }
                 if (rndsng == Global.database.Itens.Count)
