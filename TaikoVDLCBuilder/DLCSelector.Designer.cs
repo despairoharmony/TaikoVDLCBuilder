@@ -292,7 +292,6 @@
         private System.Windows.Forms.Button RunButton;
         private System.Windows.Forms.DataGridView DBView;
         private System.Windows.Forms.BindingSource songItemBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn previewDataGridViewTextBoxColumn;
         private System.Windows.Forms.ProgressBar RunPBar;
         private System.Windows.Forms.DataGridViewCheckBoxColumn isCheckedDataGridViewCheckBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
