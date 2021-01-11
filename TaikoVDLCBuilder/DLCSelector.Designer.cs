@@ -89,11 +89,11 @@
             this.sourceDataGridViewTextBoxColumn});
             this.DBView.DataSource = this.songItemBindingSource;
             this.DBView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DBView.Location = new System.Drawing.Point(0, 70);
+            this.DBView.Location = new System.Drawing.Point(0, 100);
             this.DBView.Margin = new System.Windows.Forms.Padding(1);
             this.DBView.Name = "DBView";
             this.DBView.RowTemplate.Height = 46;
-            this.DBView.Size = new System.Drawing.Size(644, 356);
+            this.DBView.Size = new System.Drawing.Size(644, 346);
             this.DBView.TabIndex = 2;
             this.DBView.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.DBView_DataBindingComplete);
             // 
@@ -110,7 +110,7 @@
             // RunPBar
             // 
             this.RunPBar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.RunPBar.Location = new System.Drawing.Point(0, 426);
+            this.RunPBar.Location = new System.Drawing.Point(0, 446);
             this.RunPBar.Margin = new System.Windows.Forms.Padding(2);
             this.RunPBar.Name = "RunPBar";
             this.RunPBar.Size = new System.Drawing.Size(644, 15);
@@ -149,7 +149,7 @@
             this.BottomPanel.Controls.Add(this.ClearButton);
             this.BottomPanel.Controls.Add(this.RandomButton);
             this.BottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BottomPanel.Location = new System.Drawing.Point(0, 441);
+            this.BottomPanel.Location = new System.Drawing.Point(0, 461);
             this.BottomPanel.Name = "BottomPanel";
             this.BottomPanel.Size = new System.Drawing.Size(644, 40);
             this.BottomPanel.TabIndex = 6;
@@ -159,7 +159,7 @@
             this.IntroLabel.Dock = System.Windows.Forms.DockStyle.Top;
             this.IntroLabel.Location = new System.Drawing.Point(0, 0);
             this.IntroLabel.Name = "IntroLabel";
-            this.IntroLabel.Size = new System.Drawing.Size(644, 70);
+            this.IntroLabel.Size = new System.Drawing.Size(644, 100);
             this.IntroLabel.TabIndex = 7;
             this.IntroLabel.Text = "Label";
             this.IntroLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -170,7 +170,7 @@
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
             this.TopPanel.Name = "TopPanel";
-            this.TopPanel.Size = new System.Drawing.Size(644, 70);
+            this.TopPanel.Size = new System.Drawing.Size(644, 100);
             this.TopPanel.TabIndex = 8;
             // 
             // isCheckedDataGridViewCheckBoxColumn
@@ -271,7 +271,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 481);
+            this.ClientSize = new System.Drawing.Size(644, 501);
             this.Controls.Add(this.DBView);
             this.Controls.Add(this.TopPanel);
             this.Controls.Add(this.RunPBar);
