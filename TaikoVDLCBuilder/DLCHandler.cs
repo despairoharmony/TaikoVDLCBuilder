@@ -133,7 +133,7 @@ namespace TaikoVDLCBuilder
             {
                 for (int j = 0; j <= (data.Itens.Count - 1); j++)
                 {
-                    if (data.Itens[j].genreNo == i)
+                    if (data.Itens[j].genreNo == Global.genreVita[i])
                     {
                         organized.Add(data.Itens[j]);
                     }

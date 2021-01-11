@@ -9,6 +9,7 @@ namespace TaikoVDLCBuilder
     public static class Global
     {
         public static SongList database;
+        public static readonly int[] genreVita = {0, 6, 1, 2, 5, 4, 3};
         public const int tslot = 395; //Limit of slots that vita can handle
         public const string HexStart = "D3";
         public const string PathJSON = "Data/songdata.json";
