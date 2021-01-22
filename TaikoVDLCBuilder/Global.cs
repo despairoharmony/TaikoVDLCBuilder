@@ -33,6 +33,6 @@ namespace TaikoVDLCBuilder
         public const string TlDLC1 = "Clear";
         public const string TlDLC2 = "Error";
         public const string TlSongSl = "Attention";
-        public const string WlcmTxt = "Taiko no Tatsujin V Version - DLC Builder (1.0.0)\nMade By DespairOfHarmony\n\nThis builder is not compatible with official DLC songs present on Nopaystation/PSN. Other DLC, such as costumes, work normally.\nSelect the songs that you wish to play. You can select up to 395 slots, each song will take one slot,\nbut songs with Oni Difficulty will take one more slot.\nREMEMBER: backup your save if you have older DLC scores, because they may be overlapped.";
+        public const string WlcmTxt = "Taiko no Tatsujin V Version - DLC Builder (1.0.1)\nMade By DespairOfHarmony\n\nThis builder is not compatible with official DLC songs present on Nopaystation/PSN. Other DLC, such as costumes, work normally.\nSelect the songs that you wish to play. You can select up to 395 slots, each song will take one slot,\nbut songs with Oni Difficulty will take one more slot.\nREMEMBER: backup your save if you have older DLC scores, because they may be overlapped.";
     }
 }
