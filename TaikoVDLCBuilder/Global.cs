@@ -11,6 +11,7 @@ namespace TaikoVDLCBuilder
         public static SongList database;
         public static readonly int[] genreVita = {0, 6, 1, 2, 5, 4, 3};
         public const int tslot = 395; //Limit of slots that vita can handle
+        public const int tsong = 282; //Limit of songs that repatch(?) can handle
         public const string HexStart = "D3";
         public const string PathJSON = "Data/songdata.json";
         public const string PathDLC = "readdcont";
@@ -30,9 +31,10 @@ namespace TaikoVDLCBuilder
         public const string MsgSongSl5 = "\nDo you want to proceed?";
         public const string MsgSongSl6 = "\nYou can select only 395 slots.\nRemeber: Songs with Oni difficulty takes 2 slots.";
         public const string MsgSongSl7 = "No song has been selected.";
+        public const string MsgSongSl8 = "\nYou can select only 282 songs.";
         public const string TlDLC1 = "Clear";
         public const string TlDLC2 = "Error";
         public const string TlSongSl = "Attention";
-        public const string WlcmTxt = "Taiko no Tatsujin V Version - DLC Builder (1.0.1)\nMade By DespairOfHarmony\n\nThis builder is not compatible with official DLC songs present on Nopaystation/PSN. Other DLC, such as costumes, work normally.\nSelect the songs that you wish to play. You can select up to 395 slots, each song will take one slot,\nbut songs with Oni Difficulty will take one more slot.\nREMEMBER: backup your save if you have older DLC scores, because they may be overlapped.";
+        public const string WlcmTxt = "Taiko no Tatsujin V Version - DLC Builder (1.0.2)\nMade By DespairOfHarmony\n\nThis builder is not compatible with official DLC songs present on Nopaystation/PSN. Other DLC, such as costumes, work normally.\nSelect the songs that you wish to play. You can select up to 282 songs, with 395 slots, each song will take one slot,\nbut songs with Oni Difficulty will take one more slot.\nREMEMBER: backup your save if you have older DLC scores, because they may be overlapped.";
     }
 }

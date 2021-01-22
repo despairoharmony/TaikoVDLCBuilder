@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DLCSelector));
             this.RunButton = new System.Windows.Forms.Button();
             this.DBView = new System.Windows.Forms.DataGridView();
             this.genreName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -276,6 +277,7 @@
             this.Controls.Add(this.TopPanel);
             this.Controls.Add(this.RunPBar);
             this.Controls.Add(this.BottomPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "DLCSelector";
             this.Text = "Taiko no Tatsujin V Version - DLC Builder";

@@ -71,7 +71,12 @@ namespace TaikoVDLCBuilder
             } else if (nslot > Global.tslot)  //More songs selected than limit
             {
                 MessageBox.Show(ms1 + Global.MsgSongSl6, Global.TlSongSl);
-            } else
+            }
+            else if (nsong > Global.tsong)  //More songs selected than limit
+            {
+                MessageBox.Show(ms1 + Global.MsgSongSl8, Global.TlSongSl);
+            }
+            else
             {
                 //Confirm song selection
                 string message = ms1 + ms2 + Global.MsgSongSl5;
@@ -107,7 +112,7 @@ namespace TaikoVDLCBuilder
             //Clear all selection
             ClearDB();
             //Repeat while limit is not reached or number of songs is lower than total
-            while (rndslt < Global.tslot)
+            while (rndsng < Global.tsong)
             {
                 //Get a random song
                 idx = rnd.Next(DBView.Rows.Count);
